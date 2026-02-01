@@ -123,10 +123,9 @@ main_ascii = r"""    ____                __                            __
 
 menu_ascii = main_ascii
 
-if __name__ == "__main__":
-    users = load_users()
-    os.system('cls' if os.name == 'nt' else 'clear')
-    print_blue_orange_diagonal(main_ascii)
-    logged_user = logging_in_default(users)
-    if logged_user:
-        handle_session(logged_user, users[logged_user])
+users = load_users()
+os.system('cls' if os.name == 'nt' else 'clear')
+print_blue_orange_diagonal(main_ascii)
+logged_user = logging_in_default(users)
+if logged_user:
+    handle_session(logged_user, users[logged_user])
