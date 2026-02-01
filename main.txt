@@ -9,7 +9,6 @@ def load_users():
     try:
         response = requests.get(url)
         response.raise_for_status()
-        # Using .strip() and .encode().decode() to clean invisible web characters
         clean_content = response.text.strip().encode('ascii', 'ignore').decode('ascii')
         return json.loads(clean_content)
     except Exception as e:
@@ -123,9 +122,10 @@ main_ascii = r"""    ____                __                            __
 
 menu_ascii = main_ascii
 
-users = load_users()
-os.system('cls' if os.name == 'nt' else 'clear')
-print_blue_orange_diagonal(main_ascii)
-logged_user = logging_in_default(users)
-if logged_user:
-    handle_session(logged_user, users[logged_user])
+if __name__ == "__main__":
+    users = load_users()
+    os.system('cls' if os.name == 'nt' else 'clear')
+    print_blue_orange_diagonal(main_ascii)
+    logged_user = logging_in_default(users)
+    if logged_user:
+        handle_session(logged_user, users[logged_user])
