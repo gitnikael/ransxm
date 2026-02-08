@@ -9,7 +9,7 @@ if ($_SERVER['REQUEST_METHOD'] === "OPTIONS") {
     exit;
 }
 
-$webhook = "https://discord.com/api/webhooks/1470034654638637212/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+$webhook = "https://discord.com/api/webhooks/1470034654638637212/l48JtTXTL9u2JHqMQeiVQE-r7CfeufajUFRS-x2WNQUpaIciA_fwR7HhWEURyl7ZjbtD";
 
 $body = file_get_contents("php://input");
 
