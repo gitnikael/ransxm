@@ -9,7 +9,7 @@ if ($_SERVER['REQUEST_METHOD'] === "OPTIONS") {
     exit;
 }
 
-$webhook = "https://discord.com/api/webhooks/1470034654638637212/l48JtTXTL9u2JHqMQeiVQE-r7CfeufajUFRS-x2WNQUpaIciA_fwR7HhWEURyl7ZjbtD";
+$webhook = "https://discord.com/api/webhooks/1470034654638637212/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
 
 $body = file_get_contents("php://input");
 
@@ -17,7 +17,7 @@ $headers = function_exists('getallheaders') ? getallheaders() : $_SERVER;
 
 $ip = $_SERVER['HTTP_X_FORWARDED_FOR'] ?? $_SERVER['REMOTE_ADDR'];
 
-$bannerImage = "https://file.garden/aIRxY75TdDxAqDHm/876566b9f57f90f5bad8aa9555abd743.png"
+$bannerImage = "https://file.garden/aIRxY75TdDxAqDHm/876566b9f57f90f5bad8aa9555abd743.png";  
 
 $payload = [
     "embeds" => [
